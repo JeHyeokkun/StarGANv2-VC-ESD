@@ -1,9 +1,9 @@
 log_dir: /workspace/logs/starganv2vc_esd_PVC_en_24k
 save_freq: 5
 device: cuda
-epochs: 10
+epochs: 150
 batch_size: 12
-pretrained_model: "/workspace/logs/starganv2vc_esd_PVC_en_24k/epoch_00140.pth"
+pretrained_model: ""
 load_only_params: false
 fp16_run: true
 train_data: /workspace/StarGANv2-VC/Data/esd_pvc_train_list.txt
